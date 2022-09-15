@@ -7,3 +7,34 @@
     margin: auto;
     width: 30%;
 }
+
+#keeps{
+    /* margin-top: -45px; */
+    /* line-height: 8px; */
+    margin-top: -20px;
+}
+h1{
+    font-size: 2em;
+}
+#lefts{
+    margin-top: -30px;
+}
+#lefts h1{
+    /* font-size: 2em; */
+    margin-left: 13px;
+}
+#dispf{
+    display: flex;
+    margin-left: -25px;
+    margin-top: -50px;
+}
+#Back1{
+    line-height: 0px;
+    margin-top: -30px;
+}
+#Back1 h1{
+    margin-left: 10px;
+}
+#Back1 h2{
+    margin-left: -18px;
+}
