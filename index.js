@@ -34,7 +34,7 @@ centerBack2Id.innerHTML = `
 
     </div>
 `
-var centerBack1 = new Club("Marinex", "5", "CB")
+var centerBack1 = new Club("Matinez", "5", "CB")
 centerBack1Id.innerHTML = `
     <div id="Back1">
         <h3> ${centerBack1.position}</h3>
