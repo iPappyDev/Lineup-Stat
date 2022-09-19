@@ -40,6 +40,7 @@ h1{
 }
 .fCent{
     position: relative;
+    padding-top: 10px;
     animation-name: fCent;
     animation-duration: 4s;
     animation-delay: 0s;
@@ -50,12 +51,31 @@ h1{
     /* 0%   {left:-100px; top:0px;} */
     /* 100% {left:0px; top:200px;} */
 }
+#numberKeeper{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
 .fSec{
     position: relative;
+    display: flex; gap: 50px; justify-content: center; margin-top: 90px;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 4s;
     /* animation-iteration-count: 3; */
+}
+#rightBackid{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
+#centerBack2Id{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
+#centerBack1Id{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
+#leftBackid{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
+#defensiveMidf{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red; margin-top: 40px;
 }
 @keyframes example {
     0%   {left:-50px; top:0px;}
@@ -77,6 +97,7 @@ h1{
 }
 .t2Sec{
     position: relative;
+    display: flex; gap: 100px; justify-content: center; margin-top: 40px;
     animation-name: t2Sec;
     animation-duration: 4s;
     animation-delay: 12s;
@@ -88,8 +109,15 @@ h1{
     /* 0%   {left:-100px; top:0px;} */
     /* 100% {left:0px; top:200px;} */
 }
+#attackingMidf1{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
+#attackingMidf2{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
 .t3Sec{
     position: relative;
+    display: flex; gap: 250px; justify-content: center; margin-top: 40px;
     animation-name: t3Sec;
     animation-duration: 4s;
     animation-delay: 16s;
@@ -100,6 +128,12 @@ h1{
     100% {left:50px; top:0px;}
     /* 0%   {left:-100px; top:0px;} */
     /* 100% {left:0px; top:200px;} */
+}
+#leftWing{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+}
+#rightWing{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red;
 }
 .t3Cent{
     position: relative;
@@ -112,4 +146,7 @@ h1{
     100% {left:50px; top:-50px;}
     /* 0%   {left:-100px; top:0px;} */
     /* 100% {left:0px; top:200px;} */
+}
+#striker{
+    height: 40px; width: 40px; border-radius: 50%; background-color: red; margin-top: 60px;
 }
