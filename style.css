@@ -1,16 +1,12 @@
 .container{
     background-image: url("istockphoto-165496890-612x612.jpeg");
-    /* width: 50%; */
     background-repeat: no-repeat;
-    /* background-size: cover; */
     height: 80vh;
     margin: auto;
     width: 30%;
 }
 
 #keeps{
-    /* margin-top: -45px; */
-    /* line-height: 8px; */
     margin-top: -20px;
 }
 h1{
@@ -20,7 +16,6 @@ h1{
     margin-top: -30px;
 }
 #lefts h1{
-    /* font-size: 2em; */
     margin-left: 13px;
 }
 #dispf{
@@ -48,40 +43,38 @@ h1{
 @keyframes fCent {
     0%   {left:-50px; top:0px;}
     100% {left:50px; top:-20px;}
-    /* 0%   {left:-100px; top:0px;} */
-    /* 100% {left:0px; top:200px;} */
 }
 #numberKeeper{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: red;
 }
 .fSec{
     position: relative;
-    display: flex; gap: 50px; justify-content: center; margin-top: 90px;
+    display: flex; gap: 50px; 
+    justify-content: center; 
+    margin-top: 90px;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 4s;
-    /* animation-iteration-count: 3; */
 }
-#rightBackid{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
-}
-#centerBack2Id{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
-}
-#centerBack1Id{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
-}
-#leftBackid{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+.defenders{
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: red;
 }
 #defensiveMidf{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red; margin-top: 40px;
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: red; 
+    margin-top: 40px;
 }
 @keyframes example {
     0%   {left:-50px; top:0px;}
     100% {left:50px; top:-50px;}
-    /* 0%   {left:-100px; top:0px;} */
-    /* 100% {left:0px; top:200px;} */
 }
 .t2Cent{
     position: relative;
@@ -92,48 +85,46 @@ h1{
 @keyframes t2Cent {
     0%   {left:-50px; top:0px;}
     100% {left:50px; top:0px;}
-    /* 0%   {left:-100px; top:0px;} */
-    /* 100% {left:0px; top:200px;} */
 }
 .t2Sec{
     position: relative;
-    display: flex; gap: 100px; justify-content: center; margin-top: 40px;
+    display: flex; 
+    gap: 100px; 
+    justify-content: center; 
+    margin-top: 40px;
     animation-name: t2Sec;
     animation-duration: 4s;
     animation-delay: 12s;
-    /* animation-iteration-count: 3; */
 }
 @keyframes t2Sec {
     0%   {left:-50px; top:0px;}
     100% {left:50px; top:0px;}
-    /* 0%   {left:-100px; top:0px;} */
-    /* 100% {left:0px; top:200px;} */
 }
-#attackingMidf1{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
-}
-#attackingMidf2{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+.midfielders{
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: red;
 }
 .t3Sec{
     position: relative;
-    display: flex; gap: 250px; justify-content: center; margin-top: 40px;
+    display: flex; 
+    gap: 250px; 
+    justify-content: center; 
+    margin-top: 40px;
     animation-name: t3Sec;
     animation-duration: 4s;
     animation-delay: 16s;
-    /* animation-iteration-count: 3; */
 }
 @keyframes t3Sec {
     0%   {left:-50px; top:0px;}
     100% {left:50px; top:0px;}
-    /* 0%   {left:-100px; top:0px;} */
-    /* 100% {left:0px; top:200px;} */
 }
-#leftWing{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
-}
-#rightWing{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red;
+.wingers{
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: red;
 }
 .t3Cent{
     position: relative;
@@ -144,9 +135,11 @@ h1{
 @keyframes t3Cent {
     0%   {left:-50px; top:0px;}
     100% {left:50px; top:-50px;}
-    /* 0%   {left:-100px; top:0px;} */
-    /* 100% {left:0px; top:200px;} */
 }
 #striker{
-    height: 40px; width: 40px; border-radius: 50%; background-color: red; margin-top: 60px;
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: red; 
+    margin-top: 60px;
 }
