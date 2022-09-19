@@ -38,11 +38,23 @@ h1{
 #Back1 h2{
     margin-left: -18px;
 }
+.fCent{
+    position: relative;
+    animation-name: fCent;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+@keyframes fCent {
+    0%   {left:-50px; top:0px;}
+    100% {left:50px; top:-20px;}
+    /* 0%   {left:-100px; top:0px;} */
+    /* 100% {left:0px; top:200px;} */
+}
 .fSec{
     position: relative;
     animation-name: example;
     animation-duration: 4s;
-    animation-delay: 0s;
+    animation-delay: 4s;
     /* animation-iteration-count: 3; */
 }
 @keyframes example {
@@ -51,16 +63,28 @@ h1{
     /* 0%   {left:-100px; top:0px;} */
     /* 100% {left:0px; top:200px;} */
 }
+.t2Cent{
+    position: relative;
+    animation-name: t2Cent;
+    animation-duration: 4s;
+    animation-delay: 8s;
+}
+@keyframes t2Cent {
+    0%   {left:-50px; top:0px;}
+    100% {left:50px; top:0px;}
+    /* 0%   {left:-100px; top:0px;} */
+    /* 100% {left:0px; top:200px;} */
+}
 .t2Sec{
     position: relative;
     animation-name: t2Sec;
     animation-duration: 4s;
-    animation-delay: 4s;
+    animation-delay: 12s;
     /* animation-iteration-count: 3; */
 }
 @keyframes t2Sec {
     0%   {left:-50px; top:0px;}
-    100% {left:50px; top:-50px;}
+    100% {left:50px; top:0px;}
     /* 0%   {left:-100px; top:0px;} */
     /* 100% {left:0px; top:200px;} */
 }
@@ -68,10 +92,22 @@ h1{
     position: relative;
     animation-name: t3Sec;
     animation-duration: 4s;
-    animation-delay: 8s;
+    animation-delay: 16s;
     /* animation-iteration-count: 3; */
 }
 @keyframes t3Sec {
+    0%   {left:-50px; top:0px;}
+    100% {left:50px; top:0px;}
+    /* 0%   {left:-100px; top:0px;} */
+    /* 100% {left:0px; top:200px;} */
+}
+.t3Cent{
+    position: relative;
+    animation-name: t3Cent;
+    animation-duration: 4s;
+    animation-delay: 20s;
+}
+@keyframes t3Cent {
     0%   {left:-50px; top:0px;}
     100% {left:50px; top:-50px;}
     /* 0%   {left:-100px; top:0px;} */
